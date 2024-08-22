@@ -1,0 +1,82 @@
+.about-us {
+    display: flex;
+    min-height: 720px;
+    overflow: hidden;
+  }
+  
+  .about-us_image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    background: var(--color-white);
+  
+    position: relative;
+  }
+  
+  .about-us_image div {
+    padding: 32px 64px;
+  
+    flex: 1;
+    display: flex;
+    align-items: center;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .about-us_image-meal1 {
+    border-bottom: 8px solid var(--color-creamson);
+  
+    background-image: url("../../assets/about_bg1.png")
+  }
+  
+  .about-us_image-meal2 {
+    background-image: url("../../assets/about_bg2.png")
+  }
+  
+  .about-us_image-meal1 img {
+    width: 350px;
+    height: 250px;
+  }
+  
+  .about-us_image-meal2 img {
+    width: 300px;
+    height: 280px;
+  }
+  
+  .about-us_button {
+    position: absolute;
+    right: 0;
+  
+    padding: 12px 32px;
+    min-height: 64px;
+  
+    background: var(--secondary-color);
+    border-radius: 32px 0 0 32px;
+    border: 0;
+    outline: 0;
+  
+    color: #fff;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+  
+    cursor: pointer;
+  }
+  
+  .about-us_button img {
+    object-fit: contain;
+    margin-left: 32px;
+  }
+  
+  .about-us_content {
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
